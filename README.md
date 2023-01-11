@@ -12,7 +12,7 @@ In order to built this project you need to download and install [Android NDK](ht
 ```bash
 ./build.sh
 ```
-The result is available in the 'obj' folder.
+The result is available in the 'obj' folder, with a folder for each architecture you have selected in the Application.mk file under the ABI parameter. 
 
 The next step, if you want to add in an Android project is describe [in this repository](https://developer.android.com/studio/projects/add-native-code.html#download-ndk)
 
